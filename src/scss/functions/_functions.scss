@@ -1,0 +1,7 @@
+@function _vh($value, $base) {
+  @return unquote((($value/$base) * 100)+"vh");
+}
+
+@function _vw($value, $base) {
+  @return unquote((($value/$base) * 100)+"vw");
+}

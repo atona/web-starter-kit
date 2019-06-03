@@ -1,0 +1,14 @@
+@import "./scss/functions/_functions.scss";
+@import "./scss/mixins/_mixins.scss";
+
+@tailwind base;
+
+@import "./scss/_myfont.scss";
+
+@tailwind components;
+
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}

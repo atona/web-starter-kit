@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "myfont";
+  src: url('../fonts/myfont.eot?1559538352');
+  src: url('../fonts/myfont.eot?1559538352#iefix') format('eot'),
+    // url('../fonts/myfont.woff2?1559538352') format('woff2'),
+    url('../fonts/myfont.woff?1559538352') format('woff'),
+    url('../fonts/myfont.ttf?1559538352') format('truetype'),
+    url('../fonts/myfont.svg?1559538352#myfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icf-"],
+[class*="icf-"], {
+  font-family: "myfont" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icf-svg:before { content: "\EA01" }
